@@ -2,7 +2,7 @@
 Global:
   # Starts UUID conversion on plugin startup
   # DONT change this if you are not sure what you doing
-  UUIDConvertion: true
+  UUIDConvertion: false
   # If you running offline server, better to check this as true. This will help to solve issues with changing players UUID.
   OfflineMode: false
   # Players with residence.versioncheck permission node will be noticed about new residence version on login
@@ -18,7 +18,7 @@ Global:
     IgnoreY: false
     # By setting this to true, player will only pay for x*z blocks ignoring height
     # This will lower residence price by up to 256 times, so ajust block price BEFORE enabling this
-    NoCostForYBlocks: false
+    NoCostForYBlocks: true
   # This determins which tool you can use to see info on residences, default is String.
   # Simply equip this tool and hit a location inside the residence and it will display the info for it.
   InfoToolId: 287
@@ -122,9 +122,8 @@ Global:
     # Show aditional message in title message area when player is teleporting to residence
     TeleportTitleMessage: true
   RandomTeleportation:
+    # World name to use this feature. Add annother one with appropriate name to enable random teleportation
     Arctic:
-      # World to use this function, set main residence world
-      WorldName: Arctic
       # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
       MaxCoord: 1000
       # If maxcord set to 1000 and mincord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
@@ -320,7 +319,7 @@ Global:
   PreventSubZoneRemoval: true
   # Setting this to false will cause residence to continue to load even if a error is detected in the save file.
   StopOnSaveFault: true
-  ResidenceNameRegex: '[^a-zA-Z0-9\-\_]'
+  ResidenceNameRegex: '[^a-zA-Z0-9-_]'
   # Setting this to true sends a message to the console every time Residence does a rent expire check or a lease expire check.
   ShowIntervalMessages: false
   # Setting this to true sends a tutorial message to the new player when he places chest on ground.
