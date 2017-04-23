@@ -28,7 +28,7 @@ VanillaBorder: true
 SkyBlock: false
 Residence: true
 Regions:
-- example
+- spawn
 OnJoin: true
 OnJoinCommand: none
 BonusChest: true
