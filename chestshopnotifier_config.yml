@@ -1,0 +1,38 @@
+# Chest Shop Notifier
+# Config file for 1.2
+
+logging:
+  admin-shop: true
+
+notifications:
+  notify-on-user-join: true
+  delay-seconds: 5
+
+history:
+  max-rows: 10
+
+debugging:
+  verbose: true
+
+database:
+  host: 'localhost'
+  port: 3306
+  dbname: 'database1'
+  username: 'dbadmin'
+  password: '123456'
+
+clean-on-startup:
+  enabled: false
+  parameters: "--older-than 30 --all"
+
+messages:
+  sales: "&c ** You made &f{sales} sales&c since you last checked."
+  history-cmd: "&c ** To see them, type &f/csn history&c."
+  history-caption: "&dChestShop Notifier // &7Latest Commissions"
+  history-empty: "&cNothing to show."
+  history-bought: "&f+ &9{player} &7bought &a{count}x&9{item} &f{timeago} ago &a(+{money})"
+  history-sold: "&f- &9{player} &7sold you &c{count}x&9{item} &f{timeago} ago &c(-{money})"
+  history-footer-page: "&c- Page &f{current}&c/&f{pages}&6 - &7/csn history <page>"
+  history-footer-clear: "&c- To remove all old entries, type /csn clear"
+  history-clear: "&cHistory cleared! New sales will continue to be recorded."
+  history-marked-read: "&cUnread entries marked read!"
