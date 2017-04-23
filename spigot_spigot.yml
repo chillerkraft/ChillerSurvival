@@ -20,14 +20,6 @@ messages:
   restart: Server is restarting
 settings:
   save-user-cache-on-stop-only: false
-  netty-threads: 4
-  attribute:
-    maxHealth:
-      max: 2048.0
-    movementSpeed:
-      max: 2048.0
-    attackDamage:
-      max: 2048.0
   bungeecord: false
   late-bind: false
   sample-count: 12
@@ -41,6 +33,14 @@ settings:
   timeout-time: 60
   restart-on-crash: true
   restart-script: ./start.sh
+  netty-threads: 4
+  attribute:
+    maxHealth:
+      max: 2048.0
+    movementSpeed:
+      max: 2048.0
+    attackDamage:
+      max: 2048.0
   debug: false
 commands:
   tab-complete: 0
@@ -113,5 +113,5 @@ world-settings:
     wither-spawn-sound-radius: 0
     view-distance: 10
     hanging-tick-frequency: 100
-    zombie-aggressive-towards-villager: true
+    zombie-aggressive-towards-villager: false
     nerf-spawner-mobs: false
