@@ -1,0 +1,512 @@
+Global:
+  Flags:
+    Global:
+      use: true
+      build: true
+      ignite: true
+      firespread: true
+      damage: true
+      creeper: true
+      tnt: true
+      pvp: true
+  FlagPermission:
+    move: true
+    build: true
+    place: true
+    destroy: true
+    use: true
+    container: true
+    pvp: true
+    tp: true
+    ignite: true
+    firespread: true
+    bucket: true
+    flow: true
+    lavaflow: true
+    waterflow: true
+    creeper: true
+    tnt: true
+    monsters: true
+    animals: true
+    animalkilling: true
+    mobkilling: true
+    vehicledestroy: true
+    trade: true
+    shear: true
+    leash: true
+    nofly: false
+    subzone: true
+    healing: true
+    piston: true
+    diode: true
+    lever: true
+    button: true
+    door: true
+    table: true
+    enchant: true
+    brew: true
+    bed: true
+    cake: true
+    note: true
+    trample: true
+    burn: true
+    explode: true
+    fireball: true
+    command: false
+    day: true
+    night: true
+    chat: true
+    hidden: false
+    overridepvp: false
+    keepinv: false
+    keepexp: false
+    shop: true
+    bank: false
+    anvil: true
+    admin: true
+    backup: false
+    beacon: true
+    canimals: true
+    chorustp: true
+    cmonsters: true
+    commandblock: false
+    coords: true
+    craft: true
+    dragongrief: true
+    dye: true
+    damage: true
+    decay: true
+    dryup: true
+    egg: true
+    enderpearl: true
+    fallinprotection: true
+    falldamage: true
+    feed: true
+    flowinprotection: true
+    flowerpot: true
+    grow: true
+    glow: true
+    hotfloor: true
+    hook: false
+    iceform: true
+    icemelt: true
+    jump2: false
+    jump3: false
+    mobexpdrop: true
+    mobitemdrop: true
+    nanimals: true
+    nmonsters: true
+    fly: false
+    nomobs: true
+    nodurability: false
+    pressure: true
+    pistonprotection: true
+    rain: true
+    redstone: true
+    respawn: false
+    riding: true
+    shoot: true
+    sun: true
+    snowtrail: true
+    spread: true
+    snowball: true
+    sanimals: true
+    smonsters: true
+    trusted: true
+    witherspawn: true
+    witherdamage: true
+    witherdestruction: true
+    wspeed1: true
+    wspeed2: true
+  FlagGui:
+    animalkilling:
+      Id: 365
+      Data: 0
+    animals:
+      Id: 383
+      Data: 90
+    bed:
+      Id: 355
+      Data: 0
+    brew:
+      Id: 379
+      Data: 0
+    bucket:
+      Id: 325
+      Data: 0
+    build:
+      Id: 45
+      Data: 0
+    burn:
+      Id: 50
+      Data: 0
+    button:
+      Id: 143
+      Data: 0
+    cake:
+      Id: 354
+      Data: 0
+    canimals:
+      Id: 383
+      Data: 91
+    chat:
+      Id: 386
+      Data: 0
+    cmonsters:
+      Id: 383
+      Data: 50
+    command:
+      Id: 137
+      Data: 0
+    container:
+      Id: 342
+      Data: 0
+    creeper:
+      Id: 383
+      Data: 50
+    destroy:
+      Id: 121
+      Data: 0
+    diode:
+      Id: 356
+      Data: 0
+    door:
+      Id: 324
+      Data: 0
+    enchant:
+      Id: 116
+      Data: 0
+    explode:
+      Id: 407
+      Data: 0
+    fireball:
+      Id: 385
+      Data: 0
+    firespread:
+      Id: 377
+      Data: 0
+    flow:
+      Id: 111
+      Data: 0
+    healing:
+      Id: 373
+      Data: 0
+    ignite:
+      Id: 259
+      Data: 0
+    lavaflow:
+      Id: 327
+      Data: 0
+    leash:
+      Id: 420
+      Data: 0
+    lever:
+      Id: 69
+      Data: 0
+    mobkilling:
+      Id: 367
+      Data: 0
+    monsters:
+      Id: 52
+      Data: 0
+    move:
+      Id: 301
+      Data: 0
+    nanimals:
+      Id: 383
+      Data: 92
+    nmonsters:
+      Id: 383
+      Data: 51
+    nofly:
+      Id: 171
+      Data: 1
+    nomobs:
+      Id: 166
+      Data: 0
+    note:
+      Id: 25
+      Data: 0
+    piston:
+      Id: 33
+      Data: 0
+    place:
+      Id: 169
+      Data: 0
+    pvp:
+      Id: 268
+      Data: 0
+    sanimals:
+      Id: 383
+      Data: 101
+    shear:
+      Id: 359
+      Data: 0
+    smonsters:
+      Id: 383
+      Data: 54
+    subzone:
+      Id: 160
+      Data: 7
+    table:
+      Id: 58
+      Data: 0
+    tnt:
+      Id: 46
+      Data: 0
+    tp:
+      Id: 120
+      Data: 0
+    trade:
+      Id: 388
+      Data: 0
+    trample:
+      Id: 3
+      Data: 0
+    use:
+      Id: 70
+      Data: 0
+    vehicledestroy:
+      Id: 328
+      Data: 0
+    waterflow:
+      Id: 326
+      Data: 0
+    anvil:
+      Id: 145
+      Data: 0
+    admin:
+      Id: 7
+      Data: 0
+    backup:
+      Id: 47
+      Data: 0
+    bank:
+      Id: 130
+      Data: 0
+    beacon:
+      Id: 138
+      Data: 0
+    chorustp:
+      Id: 432
+      Data: 0
+    commandblock:
+      Id: 137
+      Data: 0
+    coords:
+      Id: 345
+      Data: 0
+    craft:
+      Id: 1
+      Data: 0
+    dragongrief:
+      Id: 3
+      Data: 0
+    day:
+      Id: 37
+      Data: 0
+    dye:
+      Id: 351
+      Data: 14
+    damage:
+      Id: 283
+      Data: 0
+    decay:
+      Id: 18
+      Data: 0
+    dryup:
+      Id: 160
+      Data: 11
+    egg:
+      Id: 344
+      Data: 0
+    enderpearl:
+      Id: 368
+      Data: 0
+    fallinprotection:
+      Id: 12
+      Data: 0
+    falldamage:
+      Id: 301
+      Data: 0
+    feed:
+      Id: 364
+      Data: 0
+    flowinprotection:
+      Id: 333
+      Data: 0
+    flowerpot:
+      Id: 390
+      Data: 0
+    grow:
+      Id: 295
+      Data: 0
+    glow:
+      Id: 169
+      Data: 0
+    hotfloor:
+      Id: 213
+      Data: 0
+    hidden:
+      Id: 102
+      Data: 0
+    hook:
+      Id: 346
+      Data: 0
+    iceform:
+      Id: 79
+      Data: 0
+    icemelt:
+      Id: 79
+      Data: 0
+    jump2:
+      Id: 165
+      Data: 0
+    jump3:
+      Id: 165
+      Data: 0
+    keepinv:
+      Id: 298
+      Data: 0
+    keepexp:
+      Id: 322
+      Data: 0
+    mobexpdrop:
+      Id: 362
+      Data: 0
+    mobitemdrop:
+      Id: 351
+      Data: 3
+    night:
+      Id: 35
+      Data: 15
+    fly:
+      Id: 171
+      Data: 1
+    nodurability:
+      Id: 145
+      Data: 0
+    overridepvp:
+      Id: 267
+      Data: 0
+    pressure:
+      Id: 147
+      Data: 0
+    pistonprotection:
+      Id: 29
+      Data: 0
+    rain:
+      Id: 38
+      Data: 1
+    redstone:
+      Id: 175
+      Data: 0
+    respawn:
+      Id: 175
+      Data: 0
+    riding:
+      Id: 329
+      Data: 0
+    shoot:
+      Id: 262
+      Data: 0
+    sun:
+      Id: 175
+      Data: 0
+    shop:
+      Id: 389
+      Data: 0
+    snowtrail:
+      Id: 78
+      Data: 0
+    spread:
+      Id: 332
+      Data: 0
+    snowball:
+      Id: 332
+      Data: 0
+    trusted:
+      Id: 1
+      Data: 0
+    witherspawn:
+      Id: 397
+      Data: 1
+    witherdamage:
+      Id: 397
+      Data: 1
+    witherdestruction:
+      Id: 397
+      Data: 1
+    wspeed1:
+      Id: 373
+      Data: 0
+    wspeed2:
+      Id: 373
+      Data: 0
+  ResidenceDefault:
+    build: false
+    destroy: false
+    use: false
+    container: false
+    pvp: false
+    tnt: false
+    creeper: false
+    ignite: false
+    firespread: false
+    vehicledestroy: false
+    animalkilling: false
+    hook: false
+    shear: false
+    leash: false
+    pistonprotection: true
+    tp: true
+    explode: false
+  CreatorDefault:
+    build: true
+    move: true
+    use: true
+    ignite: true
+    container: true
+    animalkilling: true
+    mobkilling: true
+    vehicledestroy: true
+    trade: true
+    shear: true
+    leash: true
+  GroupedFlags:
+    redstone:
+    - note
+    - pressure
+    - lever
+    - button
+    - diode
+    craft:
+    - brew
+    - table
+    - enchant
+    trusted:
+    - use
+    - tp
+    - build
+    - container
+    - bucket
+    - move
+    - leash
+    - animalkilling
+    - mobkilling
+    - shear
+    - chat
+    - beacon
+    fire:
+    - ignite
+    - firespread
+ItemList:
+  DefaultList:
+    Type: blacklist
+    Items:
+    - BEDROCK
+    - LAVA
+    - WATER
+    - STATIONARY_LAVA
+    - STATIONARY_WATER
+    - MOB_SPAWNER
