@@ -14,7 +14,7 @@
 # 4.18.1 added placeThrownBlocks
 
 nerf_creeper:
-  explodeblocks: false
+  explodeblocks: true
   depth: 0   #that is, everywhere
   yield: -1   # force to system default
 #  blocklist:  not set
@@ -23,19 +23,19 @@ nerf_creeper:
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
+    toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #effective everywhere
   effects: true
-  fire: false
-  blockphysics: false
-  placeThrownBlocks: false
+  fire: true
+  blockphysics: true
+  placeThrownBlocks: true
 #  replaceWith: not set; change to a Material name per bit.ly/19sfyhe
 
 # This section affects the Wither boss explosion only
 nerf_wither:
-  explodeblocks: false
+  explodeblocks: true
   depth: 0   #that is, everywhere
   yield: -1   # force to system default
 #  blocklist:  not set
@@ -44,48 +44,48 @@ nerf_wither:
     tomob: true
     toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #effective everywhere
   effects: true
   whitelist: false
-  fire: false
+  fire: true
 # Below affects Wither "walking" through blocks or when damaged. blocklist will apply
   destroyblocks: true
-  blockphysics: false
-  placeThrownBlocks: false
+  blockphysics: true
+  placeThrownBlocks: true
 
 # Ensures vanilla behavior, not nerfing
 nerf_dragon:
   # Dragon actually explodes blocks he flies through
-  explodeblocks: true
+  explodeblocks: false
   yield: -1   # force to system default
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
-    todrops: true
+    toitem: false
+    todrops: false
     topainting: true
   depth: 0   #that is, everywhere
   
 # This section affects ghast fire, fire charges, and wither skulls
 nerf_fireball:
-  explodeblocks: false
+  explodeblocks: true
   depth: 0   #that is, everywhere
   yield: -1   # force to system default
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
+    toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #that is, everywhere
   effects: true
   fire: true
-  blockphysics: false
-  placeThrownBlocks: false
+  blockphysics: true
+  placeThrownBlocks: true
 
 nerf_tnt:
-  explodeblocks: false
+  explodeblocks: true
   depth: 0   #that is, everywhere
   yield: -1   # force to system default
 # Below would disable TNT chains
@@ -94,17 +94,17 @@ nerf_tnt:
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
+    toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #that is, everywhere
   effects: true
-  fire: false
-  blockphysics: false
-  placeThrownBlocks: false
+  fire: true
+  blockphysics: true
+  placeThrownBlocks: true
 
 nerf_unknown:
-  explodeblocks: false
+  explodeblocks: true
   depth: 0   #that is, everywhere
   yield: -1   # force to system default
 #  blocklist:  not set
@@ -112,14 +112,14 @@ nerf_unknown:
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
+    toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #effective everywhere
   effects: true
   whitelist: false
-  blockphysics: false
-  placeThrownBlocks: false
+  blockphysics: true
+  placeThrownBlocks: true
 
 nerf_crystal:
   explodeblocks: true
@@ -130,14 +130,14 @@ nerf_crystal:
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
+    toitem: false
     todrops: false
-    topainting: false
+    topainting: true
     depth: 0   #effective everywhere
   effects: true
   whitelist: false
-  blockphysics: false
-  placeThrownBlocks: false
+  blockphysics: true
+  placeThrownBlocks: true
 
 nerf_endermen:
   spawnok: true
@@ -155,8 +155,8 @@ nerf_lightning:
   entitydamage:
     toplayer: true
     tomob: true
-    toitem: true
-    todrops: true
-    topainting: true
+    toitem: false
+    todrops: false
+    topainting: false
     
-nerf_beds: false
+nerf_beds: true
