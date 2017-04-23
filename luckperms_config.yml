@@ -199,7 +199,7 @@ vault-debug: false
 
 # Fill out connection info below if you're using MySQL, MariaDB, PostgreSQL or MongoDB
 # If your MySQL server supports it, the "mariadb" option is preferred over "mysql".
-storage-method: h2
+storage-method: yaml
 
 # When using a file-based storage type, LuckPerms can monitor the data files for changes, and then schedule automatic
 # updates when changes are detected.
