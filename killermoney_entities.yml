@@ -1,0 +1,1022 @@
+# This config is not contains all features. Please check this document: _site_
+# If you don't want a feature, just disable or remove it.
+
+# Support on _bukkit_, _spigot_ page or Twitter: @diecode
+
+BAT:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+BLAZE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+CAVE_SPIDER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+CHICKEN:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+COW:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+CREEPER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+DONKEY:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ELDER_GUARDIAN:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ENDER_DRAGON:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ENDERMAN:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ENDERMITE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+EVOKER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+GHAST:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+GIANT:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+GUARDIAN:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+HORSE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+HUSK:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+IRON_GOLEM:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+LLAMA:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+MULE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+MUSHROOM_COW:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+OCELOT:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+PIG:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+PIG_ZOMBIE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+PLAYER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+        Cash-transfer:
+            Enabled: false
+            Percent: 5%
+            Max-amount: 5000
+            Chance: 100%
+POLAR_BEAR:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+RABBIT:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SHEEP:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SHULKER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SILVERFISH:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SKELETON:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SKELETON_HORSE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SLIME:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SNOWMAN:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SPIDER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+SQUID:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+STRAY:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+VEX:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+VILLAGER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+WITCH:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+WITHER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+WITHER_SKELETON:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+WOLF:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ZOMBIE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ZOMBIE_HORSE:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
+ZOMBIE_VILLAGER:
+    '*':
+        Money:
+            Enabled: false
+            Chance: 100%
+            Value: 1 ? 100
+        Custom-commands:
+            Enabled: false
+            Commands:
+                '1':
+                    Command: 'say {player} killed an entity!'
+                    Chance: 100%
+        Custom-item-drop:
+            Enabled: false
+            Keep-default-items: false
+            Items:
+                '1':
+                    ItemStack:
+                        ==: org.bukkit.inventory.ItemStack
+                        type: GOLD_NUGGET
+                    Random-amount: 1 ? 5
+                    Chance: 100%
