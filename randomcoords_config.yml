@@ -21,17 +21,17 @@ GriefPrevention: false
 AvoidPlayers: false
 Towny: false
 WorldBorder: false
-WorldGuard: false
+WorldGuard: true
 RedProtect: false
 Kingdoms: false
 VanillaBorder: true
 SkyBlock: false
-Residence: false
+Residence: true
 Regions:
 - example
-OnJoin: false
+OnJoin: true
 OnJoinCommand: none
-BonusChest: false
+BonusChest: true
 BonusChestItems:
 - WOOD_SWORD
 Command: random
