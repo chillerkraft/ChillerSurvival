@@ -33,7 +33,7 @@ OnJoin: true
 OnJoinCommand: none
 BonusChest: true
 BonusChestItems:
-- WOOD_SWORD
+- essentials,join
 Command: random
 All: random
 Others: random
