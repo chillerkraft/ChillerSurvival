@@ -275,6 +275,39 @@ skip-used-one-time-kits-from-kit-list: false
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  claim:
+    delay: 180
+    items:
+      - 280 1
+  join:
+    delay: 21600
+      - 260 2
+      - 271 1
+      - 270 1
+      - 280 12
+      - 5 12
+      - 162 3
+      - 162:1 3
+      - 7 3
+      - 7:1 3
+      - 7:2 3
+      - 7:3 3
+      - 297 2
+      - 349:1 2
+      - 275 1
+      - 274 1
+      - 361 4
+      - 362 4
+      - 295 4
+      - 392 4
+      - 391 4
+      - 81 4
+      - 40 4
+      - 39 4
+      - 6 4
+      - 6:2 4
+      - 6:1 4
+      - 6:3 4
   tools:
     delay: 600
     items:
