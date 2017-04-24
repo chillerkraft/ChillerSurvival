@@ -1,0 +1,20 @@
+name: default
+permissions:
+- essentials.kits.*:
+    value: true
+- essentials.enderchest:
+    value: true
+- essentials.kit:
+    value: true
+- essentials.sethome:
+    value: true
+- essentials.sethome.multiple.default:
+    value: true
+- essentials.spawn:
+    value: true
+- Random.Command:
+    value: true
+- Random.OnJoin:
+    value: true
+- residence.group.default:
+    value: true
