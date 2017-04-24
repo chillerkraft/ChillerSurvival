@@ -1,0 +1,15 @@
+spawnLocation:
+  world: Replace_me
+  x: 0.0
+  y: 20.0
+  z: 0.0
+  pitch: 0
+  yaw: 0
+numberOfDragons: 1
+respawnTime: 21600
+spawnAlert: The beast awakens from his slumber...
+respawn:
+  enderCrystals: true
+  obsidian: false
+createPortal: false
+createEgg: true
