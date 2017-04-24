@@ -1,0 +1,8 @@
+name: owner
+permissions:
+- essentials.tp:
+    value: true
+- minecraft.command.op:
+    value: true
+- residence.group.nextgroup:
+    value: true
