@@ -8,7 +8,7 @@ Global:
       damage: true
       creeper: true
       tnt: true
-      pvp: true
+      pvp: false
   FlagPermission:
     move: true
     build: true
@@ -16,7 +16,7 @@ Global:
     destroy: true
     use: true
     container: true
-    pvp: true
+    pvp: false
     tp: true
     ignite: true
     firespread: true
