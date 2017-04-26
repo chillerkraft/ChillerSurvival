@@ -275,6 +275,10 @@ skip-used-one-time-kits-from-kit-list: false
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
+  sword:
+    delay: 60
+    items:
+      - 283 1
   claim:
     delay: 180
     items:
@@ -698,7 +702,7 @@ chat:
   # Or you can give a group specific chat format, to give some extra variation.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
 
-  format: '{DISPLAYNAME} >> {MESSAGE}'
+  format: '{DISPLAYNAME} &a>>&8 {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
@@ -893,7 +897,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: ''
+  kit: 'sword'
 
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
