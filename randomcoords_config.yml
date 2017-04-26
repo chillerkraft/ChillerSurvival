@@ -18,7 +18,7 @@ BannedWorlds:
 CheckingRadius: 100
 Factions: false
 GriefPrevention: false
-AvoidPlayers: false
+AvoidPlayers: true
 Towny: false
 WorldBorder: false
 WorldGuard: true
@@ -33,7 +33,7 @@ OnJoin: true
 OnJoinCommand: none
 BonusChest: true
 BonusChestItems:
-- essentials,join
+- Essentials,starter
 Command: random
 All: random
 Others: random
@@ -61,5 +61,5 @@ CircleRadiusWorlds:
 debug: false
 UpdateMessage: true
 OnJoinWorlds:
-- example
+- Chillerlands
 Experimental: true
