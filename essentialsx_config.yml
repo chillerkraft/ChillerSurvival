@@ -283,7 +283,7 @@ kits:
     delay: 180
     items:
       - 280 1
-  join:
+  starter:
     delay: 21600
     items:
       - 260 2
