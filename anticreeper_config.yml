@@ -29,8 +29,8 @@ nerf_creeper:
     depth: 0   #effective everywhere
   effects: true
   fire: true
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 #  replaceWith: not set; change to a Material name per bit.ly/19sfyhe
 
 # This section affects the Wither boss explosion only
@@ -51,8 +51,8 @@ nerf_wither:
   fire: true
 # Below affects Wither "walking" through blocks or when damaged. blocklist will apply
   destroyblocks: true
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 
 # Ensures vanilla behavior, not nerfing
 nerf_dragon:
@@ -81,12 +81,12 @@ nerf_fireball:
     depth: 0   #that is, everywhere
   effects: true
   fire: true
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 
 nerf_tnt:
   explodeblocks: true
-  depth: 0   #that is, everywhere
+  depth: 3   #that is, everywhere
   yield: -1   # force to system default
 # Below would disable TNT chains
 #  blocklist:  tnt
@@ -100,8 +100,8 @@ nerf_tnt:
     depth: 0   #that is, everywhere
   effects: true
   fire: true
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 
 nerf_unknown:
   explodeblocks: true
@@ -118,8 +118,8 @@ nerf_unknown:
     depth: 0   #effective everywhere
   effects: true
   whitelist: false
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 
 nerf_crystal:
   explodeblocks: true
@@ -136,8 +136,8 @@ nerf_crystal:
     depth: 0   #effective everywhere
   effects: true
   whitelist: false
-  blockphysics: true
-  placeThrownBlocks: true
+  blockphysics: false
+  placeThrownBlocks: false
 
 nerf_endermen:
   spawnok: true
