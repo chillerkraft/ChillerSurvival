@@ -9,7 +9,7 @@ AlreadyAboutTo: '&4You are already in the teleport process, &c%time &4seconds un
   you teleport!'
 TooManyAttempts: '&4Could not find a safe place to teleport!'
 ReachedLimit: '&4You''ve reached the limit for this command!'
-OnJoin: '&aYou have started in a random location!'
+OnJoin: '&aYou have started in a random location! Look around for the Bonus Chest!'
 TeleportedBy: '&aYou have been randomly teleported by &a%player'
 InvalidWorld: '&4%world &4is an invalid world!'
 CenterSet: '&aCenter set at current location!'
