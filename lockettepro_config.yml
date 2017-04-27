@@ -4,7 +4,7 @@
 
 language-file-name: lang.yml
 enable-quick-protect: true
-enable-uuid-support: false
+enable-uuid-support: true
 block-interfere-placement: true
 block-item-transfer-in: false
 block-item-transfer-out: true
