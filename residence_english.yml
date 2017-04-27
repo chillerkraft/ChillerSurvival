@@ -456,8 +456,8 @@ Language:
     # The below lines represent various messages residence sends to the players.
     # Note that some messages have variables such as %1 that are inserted at runtime.
     NewPlayerInfo: '&eIf you want to create protected area for your house, please
-      use wooden axe to select opposite sides of your home and execute command &2/res
-      create YourResidenceName'
+      use a stick to select opposite corners of your area and execute command &2/res
+      create YourResidenceName. Type /res for more help'
 CommandHelp:
   Description: Contains Help for Residence
   SubCommands:
