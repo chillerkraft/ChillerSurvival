@@ -14,11 +14,11 @@ Groups:
            # The maximum number of physical areas a residence can have.
            MaxAreasPerResidence: 2
            # The maximum number of blocks a Residence can be, East to West (X).
-           MaxEastWest: 250
+           MaxEastWest: 500
            # (Optional) The minimum number of blocks a Residence can be, East to West (X).
            MinEastWest: 3
            # The maximum number of blocks a Residence can be, North to South (Z).
-           MaxNorthSouth: 250
+           MaxNorthSouth: 500
            # (Optional) The minimum number of blocks a Residence can be, North to South (Z).
            MinNorthSouth: 3
            # The maximum number of blocks a Residence can be, High to Low (Y).
@@ -52,7 +52,7 @@ Groups:
            # Allow or Disallow the use of /res unstuck, to get yourself out of a residence if stuck in one somehow
            Unstuck: true
            # Allow or Disallow the use of /res kick, to kick player from residence.
-           Kick: False
+           Kick: true
            # Allow or Disallow the use of the /res select command, if disabled they can only use the selection tool.
            SelectCommandAccess: true
            # Allow or Disallow the group to access the Blacklist/Ignorelist for residences they own.
@@ -86,7 +86,7 @@ Groups:
           # Whether or not players in this group can buy other Residences that are for sale.
           CanBuy: true
           # Whether or not players in this group can sell their Residences.
-          CanSell: false
+          CanSell: true
           # Whether or not to ignore the Residence size/count limits when buying a residence.
           IgnoreLimits: false
           # The cost, per block, of making a new Residence or adding a area to it.
@@ -130,9 +130,9 @@ Groups:
            MaxAreasPerResidence: 2
            MaxEastWest: 1000
            MaxNorthSouth: 1000
-           MaxUpDown: 1000
+           MaxUpDown: 256
            MinHeight: 0
-           MaxHeight: 1000
+           MaxHeight: 255
            SubzoneDepth: 3
            CanTeleport: true
            Unstuck: true
