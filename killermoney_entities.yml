@@ -6,7 +6,7 @@
 BAT:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -28,7 +28,7 @@ BAT:
 BLAZE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -50,7 +50,7 @@ BLAZE:
 CAVE_SPIDER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -72,7 +72,7 @@ CAVE_SPIDER:
 CHICKEN:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -94,7 +94,7 @@ CHICKEN:
 COW:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -116,7 +116,7 @@ COW:
 CREEPER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -132,13 +132,13 @@ CREEPER:
                 '1':
                     ItemStack:
                         ==: org.bukkit.inventory.ItemStack
-                        type: GOLD_NUGGET
+                        type: TNT
                     Random-amount: 1 ? 5
-                    Chance: 100%
+                    Chance: 10%
 DONKEY:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -160,7 +160,7 @@ DONKEY:
 ELDER_GUARDIAN:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -182,7 +182,7 @@ ELDER_GUARDIAN:
 ENDER_DRAGON:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -204,7 +204,7 @@ ENDER_DRAGON:
 ENDERMAN:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -226,7 +226,7 @@ ENDERMAN:
 ENDERMITE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -248,7 +248,7 @@ ENDERMITE:
 EVOKER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -270,7 +270,7 @@ EVOKER:
 GHAST:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -292,7 +292,7 @@ GHAST:
 GIANT:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -314,7 +314,7 @@ GIANT:
 GUARDIAN:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -336,7 +336,7 @@ GUARDIAN:
 HORSE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -358,7 +358,7 @@ HORSE:
 HUSK:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -380,7 +380,7 @@ HUSK:
 IRON_GOLEM:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -402,7 +402,7 @@ IRON_GOLEM:
 LLAMA:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -424,7 +424,7 @@ LLAMA:
 MULE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -446,7 +446,7 @@ MULE:
 MUSHROOM_COW:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -468,7 +468,7 @@ MUSHROOM_COW:
 OCELOT:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -490,7 +490,7 @@ OCELOT:
 PIG:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -512,7 +512,7 @@ PIG:
 PIG_ZOMBIE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -534,9 +534,9 @@ PIG_ZOMBIE:
 PLAYER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
-            Value: 1 ? 100
+            Value: -1 ? -100
         Custom-commands:
             Enabled: false
             Commands:
@@ -561,7 +561,7 @@ PLAYER:
 POLAR_BEAR:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -583,7 +583,7 @@ POLAR_BEAR:
 RABBIT:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -605,7 +605,7 @@ RABBIT:
 SHEEP:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -627,7 +627,7 @@ SHEEP:
 SHULKER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -649,7 +649,7 @@ SHULKER:
 SILVERFISH:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -671,7 +671,7 @@ SILVERFISH:
 SKELETON:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -693,7 +693,7 @@ SKELETON:
 SKELETON_HORSE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -715,7 +715,7 @@ SKELETON_HORSE:
 SLIME:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -737,7 +737,7 @@ SLIME:
 SNOWMAN:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -759,7 +759,7 @@ SNOWMAN:
 SPIDER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -781,7 +781,7 @@ SPIDER:
 SQUID:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -803,7 +803,7 @@ SQUID:
 STRAY:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -825,7 +825,7 @@ STRAY:
 VEX:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -849,7 +849,7 @@ VILLAGER:
         Money:
             Enabled: false
             Chance: 100%
-            Value: 1 ? 100
+            Value: -1 ? -100
         Custom-commands:
             Enabled: false
             Commands:
@@ -869,7 +869,7 @@ VILLAGER:
 WITCH:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -891,7 +891,7 @@ WITCH:
 WITHER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -913,7 +913,7 @@ WITHER:
 WITHER_SKELETON:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -935,7 +935,7 @@ WITHER_SKELETON:
 WOLF:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -957,7 +957,7 @@ WOLF:
 ZOMBIE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -979,7 +979,7 @@ ZOMBIE:
 ZOMBIE_HORSE:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
@@ -1001,7 +1001,7 @@ ZOMBIE_HORSE:
 ZOMBIE_VILLAGER:
     '*':
         Money:
-            Enabled: false
+            Enabled: true
             Chance: 100%
             Value: 1 ? 100
         Custom-commands:
