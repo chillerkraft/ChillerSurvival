@@ -7,63 +7,14 @@
 # 17 Jan 2014: Added anydropchance, DARKOAK_LOG and ACACIA_LOG
 
 nerf_fire:
-  logstart:
-    player: world
-    lightning: world
-    crystal: world
-#    lava: 
-#    fireball: 
-#    explosion: 
-  whitelist: false
-#  blocklist: WOOL, HAY
-  nospread: world
-  nostartby:
-    op: false
-#    lightning:
-#      - world
-#    lava:
-#      - world_the_end
-#      - nether
-#    player:
-#      - world
-#    explosion: world
-#    fireball: world
-#    crystal: world
   nodamageto:
-#    block: world
-#    player:
-#      fromlava: world, nether
-#      fromfire:
-#        - world
-#    drops:
-#    mob: 
-#    peacefulmob:
-#    hostilemob:
-#    painting: false
-#    item: is equivalent to 'nonplayer'
-#    nonplayer:
-#      fromlava: nether, world_the_end, world
-#      fromfire: world
-  noburnmobby:
-    op: false
-#    player: 
-#    mob: 
-  noburnplayerby:
-    op: false
-#    player: 
-#    mob: 
-  logflushsecs: 600
-  noplacelavaby: 
-    op: false
-#    player: world
-  logplace:
-    lava: world  
-  wooddropscharcoal: world
-# Following is global, applying to all worlds in wooddropscharcoal
+    drops:
+      fromfire: Chillerlands, Chillerlands_nether, Chillerlands_the_end
+  wooddropscharcoal: Chillerlands, Chillerlands_nether, Chillerlands_the_end
   charcoaldrop:
     random: true
     max: 3
-    speciesmax:  
+    speciesmax:
       JUNGLE_LOG: 0
       OAK_LOG: 2
       BIRCH_LOG: 1
@@ -71,5 +22,5 @@ nerf_fire:
       ACACIA_LOG: 4
       DARKOAK_LOG: 5
     anydropchance: 75
-#  rainOverridesTimed: world
-#  timeNetherackToo: nether
+  nostartby: {}
+  logstart: {}
