@@ -56,7 +56,7 @@ world-rewrite:
 
 # Rewrites group names. The underlying name of the group does not change, just the output in commands / placeholders / Vault.
 group-name-rewrite:
-  default: Member
+  default: Player
   owner: Admin
 
 # Controls how temporary permissions/parents/meta should be accumulated
