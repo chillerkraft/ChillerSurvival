@@ -61,5 +61,5 @@ CircleRadiusWorlds:
 debug: false
 UpdateMessage: true
 OnJoinWorlds:
-- Chillerlands
+- na
 Experimental: true
