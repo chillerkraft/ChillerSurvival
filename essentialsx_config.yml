@@ -399,7 +399,8 @@ per-warp-permission: true
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: owner admin
+    Admins: owner admin staff
+    Players: default
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -702,7 +703,7 @@ chat:
   # Or you can give a group specific chat format, to give some extra variation.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
 
-  format: '{DISPLAYNAME} &2>>&r {MESSAGE}'
+  format: '&c{GROUP}&r {DISPLAYNAME} &2>>&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
@@ -908,12 +909,12 @@ respawn-listener-priority: high
 respawn-at-home: true
 
 # Teleport all joining players to the spawnpoint
-spawn-on-join: false
+#spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
-#spawn-on-join:
-#- guests
+spawn-on-join:
+- default
 #- admin
 
 # End of file <-- No seriously, you're done with configuration.
