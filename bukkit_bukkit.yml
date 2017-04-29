@@ -22,7 +22,8 @@ settings:
   query-plugins: true
   deprecated-verbose: default
   shutdown-message: |
-    §4Server closed
+    §2§lServer closed§r
+    §9Chiller§bSurival§a should be back up soon!
 spawn-limits:
   monsters: 70
   animals: 15
