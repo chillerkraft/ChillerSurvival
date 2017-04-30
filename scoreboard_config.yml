@@ -1,0 +1,73 @@
+# 
+#  ________  ________  ________  ________  _______   ________  ________  ________  ________  ________     
+# |\   ____\|\   ____\|\   __  \|\   __  \|\  ___ \ |\   __  \|\   __  \|\   __  \|\   __  \|\   ___ \    
+# \ \  \___|\ \  \___|\ \  \|\  \ \  \|\  \ \   __/|\ \  \|\ /\ \  \|\  \ \  \|\  \ \  \|\  \ \  \_|\ \   
+#  \ \_____  \ \  \    \ \  \\\  \ \   _  _\ \  \_|/_\ \   __  \ \  \\\  \ \   __  \ \   _  _\ \  \ \\ \  
+#   \|____|\  \ \  \____\ \  \\\  \ \  \\  \\ \  \_|\ \ \  \|\  \ \  \\\  \ \  \ \  \ \  \\  \\ \  \_\\ \ 
+#    ____\_\  \ \_______\ \_______\ \__\\ _\\ \_______\ \_______\ \_______\ \__\ \__\ \__\\ _\\ \_______\
+#    |\_________\|_______|\|_______|\|__|\|__|\|_______|\|_______|\|_______|\|__|\|__|\|__|\|__|\|_______|
+#   \|_________|                                                                                         
+
+settings:
+  use_uuid: true
+  hooks:
+    placeholderapi: true
+    mvdwplaceholderapi: true
+animatedboard:
+  '1':
+    content:
+    - '&4> &c&lScoreboard &4<'
+    - '&4> &c&lcoreboar &4<'
+    - '&4> &c&loreboa &4<'
+    - '&4> &c&leb &4<'
+    - '&4> &4<'
+    - '&4> &c&leb &4<'
+    - '&4> &c&loreboa &4<'
+    - '&4> &c&lcoreboar &4<'
+    - '&4> &4&lScoreboard &4<'
+    - '&4> &c&lScoreboard &4<'
+    - '&4> &4&lScoreboard &4<'
+    - '&4> &c&lScoreboard &4<'
+    - '&4> &4&lScoreboard &4<'
+    - '&4> &c&lScoreboard &4<'
+    - '&4> &c&lScoreboard &4<'
+    - '&4> &c&lScoreboard &4<'
+    update: 3
+  '2':
+    content:
+    - '&4[&7---------------&4]'
+    update: 1000
+  '3':
+    content:
+    - '&c&lAuthor'
+    - '&c&lYour name'
+    update: 120
+  '4':
+    content:
+    - ' HelloitsRien'
+    - ' %player_name%'
+    update: 120
+  '5':
+    content:
+    - ''
+    update: 1000
+  '6':
+    content:
+    - '&c&lPing'
+    update: 1000
+  '7':
+    content:
+    - ' %player_ping% ms'
+    update: 3
+  '8':
+    content:
+    - ''
+    update: 1000
+  '9':
+    content:
+    - '&c&lUptime'
+    update: 1000
+  '10':
+    content:
+    - ' %server_uptime%'
+    update: 1000
