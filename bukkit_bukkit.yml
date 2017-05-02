@@ -23,7 +23,7 @@ settings:
   deprecated-verbose: default
   shutdown-message: |
     §2§lServer closed§r
-    §9Chiller§bSurival§a should be back up soon!
+    §9Chiller§bSurvival§a should be back up soon!
 spawn-limits:
   monsters: 70
   animals: 15
