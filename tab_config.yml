@@ -1,0 +1,120 @@
+# ------------------------------ #
+#
+#  Tab 5
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------ #
+
+# About: Minecraft 1.8 features a tab header and footer
+#        This plugin will allow you to create a customizable tab
+#        header and footer.
+#
+#        This plugin supports variables.
+
+# Permissions: To use the tab groups give them the permission
+#              tab.group.<group>  (ex. tab.group.default)
+#              Make sure to remove them from the other groups
+#              when giving a new permission.
+
+# Commands: List of all commands
+#           /tab reload     -  Reload the configuration
+#           /tab help       -  See all commands
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {SERVER}       - Server name
+#            {PLAYERCOUNT}  - Server player count
+#            {BUNGEECOUNT}  - Bungee network player count
+#            And lots lots more (see Spigot Page) (1800+)
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 5
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+  # Reset log on startup
+  reset: true
+
+## Update checking
+update:
+  check: true # RECOMMENDED YOU LEAVE THIS TRUE
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# Placeholder settings
+placeholder:
+  # logs the memory usage of placeholders on startup
+  log-memory: false
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  # Config cache only
+  # This will only use placeholders in the config
+  # HOWEVER: IT WILL BREAK ALL CUSTOM PLACEHOLDERS!
+  # IT WILL ALSO PREVENT ANY HOOKS (PlaceholderAPI)
+  config-cache: false
+
+# Tab Header and footer
+tab:
+  # You can create multiple groups to send
+  # different tablists to different players
+  default:
+    # The tab header is situated on the top of the tablist
+    header:
+      # The header supports color codes
+      text: # Use \n to split lines
+      - '&9&l{175} <glow normalcolor="&8&l" glowcolor="&4&l" startglowcolor="&4&l" endglowcolor="&4&l">My Test Server</glow> &9&l{174}\n     &e&l~ &6&l<fullwidth>Welcome</fullwidth> &e&l~'
+      # The interval in ticks to switch text (20 ticks = 1 sec)
+      interval: 2
+      # Define if the text should be randomized. Animation formatting tags
+      # won't be affected.
+      random: false
+    # The tab footer is situated on the bottom of the tablist (below all the names)
+    footer:
+      # The footer supports color codes
+      text:
+      - '&8&lRAM USAGE: &7{usedram_formatted} / {maxram_formatted}\n &8&lTPS USAGE: &7{tps_rounded} / 20\n &8&lONLINE PLAYERS: &7{onlineplayers}'
+      # The interval in ticks to switch text (20 ticks = 1 sec)
+      interval: 2
+      # Define if the text should be randomized. Animation formatting tags
+      # won't be affected.
+      random: false
+
+# An example of a group would be vip  (tab.group.vip)
+# For example you could remove the footer that says Vote now! or
+# in this example the site url.
+
+# Tab colors. If you want colors tab names in the tablist give permissions
+# to groups to match that color. Keep note: make sure to give negative permissions
+# when you have inheritance between groups.
+#
+# If you have a wildcard permission, give youself negative permissions
+#
+# Permissions:
+# tab.color.<colorname>
+# Dark colors:
+# tab.color.dark<colorname>
+# See the spigot page for more details
+tabcolors: true
+
+# Nicknames in tab with tabcolors true
+tabcolors-nicknames: true
+
+# Live checking for tab color changes
+# When disabled your color is only set upon login
+tabcolor-livecheck: true
