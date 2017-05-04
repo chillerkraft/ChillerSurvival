@@ -56,7 +56,8 @@ world-rewrite:
 
 # Rewrites group names. The underlying name of the group does not change, just the output in commands / placeholders / Vault.
 group-name-rewrite:
-  default: Player
+  default: Member
+  donator: VIP
   owner: Admin
 
 # Controls how temporary permissions/parents/meta should be accumulated
@@ -73,7 +74,7 @@ temporary-add-behaviour: deny
 # -> stored                 use the value stored against the users record in the file/database
 # -> parents-by-weight      just use the users most highly weighted parent
 # -> all-parents-by-weight  same as above, but calculates based upon all parents inherited from both directly and indirectly
-primary-group-calculation: stored
+primary-group-calculation: parents-by-weight
 
 
 
@@ -96,10 +97,29 @@ apply-regex: true
 # If set to true, LuckPerms will detect and expand shorthand node patterns.
 apply-shorthand: true
 
+# If the plugin should apply Bukkit child permissions.
+# Plugin authors can define custom permissions structures for their plugin, which will be resolved and used
+# by LuckPerms if this setting is enabled.
+apply-bukkit-child-permissions: true
+
+# If the plugin should apply Bukkit default permissions.
+# Plugin authors can define permissions which should be given to all users by default, or setup permissions
+# which should/shouldn't be given to opped players.
+# If this option is set to false, LuckPerms will ignore these defaults.
+apply-bukkit-default-permissions: true
+
+# If the plugin should apply attachment permissions.
+# Other plugins on the server are able to add their own "permission attachments" to players. This allows
+# them to grant players additional permissions which last until the end of the session, or until they're removed.
+# If this option is set to false, LuckPerms will not include these attachment permissions when considering if a
+# player should have access to a certain permission.
+apply-bukkit-attachment-permissions: true
+
 # Define special group weights for this server.
 # Default is just 0.
 group-weight:
-#  admin: 10
+  donator: 20
+  admin: 50
 
 
 
