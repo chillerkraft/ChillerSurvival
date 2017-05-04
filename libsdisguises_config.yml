@@ -18,7 +18,7 @@ UndisguiseRadiusMax: 50
 
 # Shall the players view their disguises?
 # Best used when viewing yourself in 3rd person
-ViewSelfDisguises: true
+ViewSelfDisguises: false
 
 # Shall I disguise the sounds?
 # This turns your damage sound into a MOOOO
@@ -73,7 +73,7 @@ ModifyBoundingBox: false
 # This prevents disguised players from being targeted by monsters.
 # This doesn't prevent their targeting you if already targeting when disguised
 # They will just ignore you unless provoked.
-MonstersIgnoreDisguises: false
+MonstersIgnoreDisguises: true
 
 # Sigh. People are going to want this.
 # So lets make your disguise blown if you are attacked..
@@ -101,7 +101,7 @@ KeepDisguises:
     EntityDespawn: false
     PlayerDeath: false
     PlayerLogout: false
-  
+
 # This controls if a entitys max health is determined by the entity, or by the disguise.
 # Wither is 200, a player is 20. With this enabled, a player disguised as a wither will have the boss bar health accurate to the players health.
 # Else it will be 1/20 of the boss bar when he is full health.
