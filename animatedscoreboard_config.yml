@@ -1,0 +1,9 @@
+worlds:
+  world:
+  - adminboard
+  - defaultscoreboard
+  world_the_end: endscoreboard
+  world_nether: netherscoreboard
+permissions:
+  adminboard: animatedscoreboard.admin
+check_updates: true
