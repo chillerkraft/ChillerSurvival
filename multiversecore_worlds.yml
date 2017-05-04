@@ -2,7 +2,7 @@ worlds:
   Chillerlands_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: N
+    alias: 'N'
     color: RED
     style: NORMAL
     pvp: 'false'
@@ -34,23 +34,23 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 3.5
-      y: 5.0
-      z: 2.5
+      x: 0.0
+      y: 86.0
+      z: 0.0
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-1679010215806027044'
+    seed: '-1176399401'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'false'
   Chillerlands_the_end:
     ==: MVWorld
     hidden: 'false'
-    alias: TE
+    alias: 'TE'
     color: WHITE
     style: NORMAL
     pvp: 'false'
@@ -83,7 +83,7 @@ worlds:
     spawnLocation:
       ==: MVSpawnLocation
       x: 0.0
-      y: 62.0
+      y: 58.0
       z: 0.0
       pitch: 0.0
       yaw: 0.0
@@ -91,14 +91,14 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: THE_END
-    seed: '-1679010215806027044'
+    seed: '-1176399401'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'false'
   Chillerlands:
     ==: MVWorld
     hidden: 'false'
-    alias: OW
+    alias: 'OW'
     color: GREEN
     style: NORMAL
     pvp: 'false'
@@ -130,16 +130,16 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: -174.5
-      y: 70.0
-      z: 132.5
+      x: -16.5
+      y: 64.0
+      z: 255.5
       pitch: 0.0
       yaw: 0.0
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NORMAL
-    seed: '-1679010215806027044'
+    seed: '-1176399401'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'false'
