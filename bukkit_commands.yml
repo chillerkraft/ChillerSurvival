@@ -14,3 +14,5 @@ command-block-overrides: []
 aliases:
   icanhasbukkit:
   - version $1-
+  tabsuggest:
+  - "mail send ChillerKraft TabSuggest: $$1-"
