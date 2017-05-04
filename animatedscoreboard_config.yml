@@ -1,9 +1,13 @@
 worlds:
-  world:
+  Chillerlands:
   - adminboard
   - defaultscoreboard
-  world_the_end: endscoreboard
-  world_nether: netherscoreboard
+  Chillerlands_the_end:
+  - adminboard
+  - endscoreboard
+  Chillerlands_nether:
+  - adminboard
+  - netherscoreboard
 permissions:
   adminboard: animatedscoreboard.admin
 check_updates: true
