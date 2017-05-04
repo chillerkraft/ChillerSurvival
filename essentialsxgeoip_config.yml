@@ -1,5 +1,5 @@
 database:
-  show-cities: false
+  show-cities: true
   download-if-missing: true
   # Url for country
   download-url: "http://geolite.maxmind.com/download/geoip/database/GeoLiteCountry/GeoIP.dat.gz"
