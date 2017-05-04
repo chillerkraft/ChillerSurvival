@@ -1,0 +1,159 @@
+# ------------------------------ #
+#
+#  DynamicSigns 3
+#  (c) Maxim Van de Wynckel
+#
+# ------------------------------ #
+
+# Variables: These variables can be used in the TEXT section
+#            of both the header as the footer.
+#            
+#            {PLAYER}       - Player name
+#            {PLAYERNICK}   - Player nickname
+#            {SERVER}       - Server name
+#            {PLAYERCOUNT}  - Server player count
+#            {BUNGEECOUNT}  - Bungee network player count
+#            4000+ more ... see spigot page
+
+# Formatting: These are formatting tags allowing you to format the animations
+#             or placeholders.
+#
+#             Substring: This allows you to split a word (even a placeholder) in parts
+#               example: <substring begin=0 end=3>Hello World</substring> = Hel
+#               usage: This can be used to split placeholders when creating a typewriter
+#                      or to split the colors in a placeholder.
+#
+#             Scroll: This creates a scrolling animation of the text inside it. It accepts
+#                     two arguments (the length and space between scrolls).
+#               example: <scroll width=20 spaces=20>&2This is a &atest</scroll>
+#
+#             PLENTY MORE! See spigot page
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# GENERAL PLUGIN SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+## Config version (DO NOT EDIT)
+config: 3
+
+## Language file
+lang: 'en'
+
+## Debug mode
+debug: false
+
+## Log to file
+log:
+  enabled: true
+  # Reset log on startup
+  reset: true
+
+## Update checking
+update:
+  check: true # RECOMMENDED YOU LEAVE THIS TRUE
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN SPECIFIC SETTINGS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+
+## IMPORTANT:
+## 1) When you have questions/problems send me a PM first
+## 2) It is advised to keep your interval above 15 when you have a lot
+##    of signs. This is also (just like the tweaks) something you have to
+##    experiment with and see what gives you the best performance.
+## 3) The plugin won't cause server lagg. The only lagg that can occur
+##    is system lagg due to having fast intervals (packets that flood clients)
+
+## -- Following tweaks depend on the usage and performance of the server/clients ---
+## If you have a server where you join right next to animated signs (hub,..) it is advised to
+## add a bit of a delay before sending the sign updates.
+## If you place signs near warps ,.. it is advised to increase the delay of teleporting a bit.
+## These values are things you need to experiment with, they are not 'optimal' out of the box
+## Test it like default first, then lower/increase it.
+## ---------------------------------------------------------------------------------
+
+# Sign update distance. This is the distance the sign updates the changes to the player
+# decrease this if you have a lot of signs at the same location or if the intervals
+# are too fast.
+update-distance: 7
+
+# Join delay. This is the delay used to wait until sending the signs. This
+# delay is used to prevent "Unknown Sign at ...." errors when chunks are not loaded
+# for a specific player (in ticks)
+join-delay: 25
+
+# Teleport delay. This is the delay used to wait until sending the signs. This
+# delay is used to prevent "Unknown Sign at ...." errors when chunks are not loaded
+# for a specific player (in ticks)
+teleport-delay: 25
+
+# Respawn delay. This is the delay used to wait until sending the signs. This
+# delay is used to prevent "Unknown Sign at ...." errors when chunks are not loaded
+# for a specific player (in ticks)
+respawn-delay: 25
+
+
+# Placeholder settings
+placeholder:
+  # logs the memory usage of placeholders on startup
+  log-memory: false
+  # Clear unused placeholders that are not enabled.
+  clear-unused: true
+  # Config cache only
+  # This will only use placeholders in the config
+  # HOWEVER: IT WILL BREAK ALL CUSTOM PLACEHOLDERS!
+  # IT WILL ALSO PREVENT ANY HOOKS (PlaceholderAPI)
+  config-cache: false
+
+
+# Animated sign lines
+lines:
+  # You can create multiple lines to replace
+  # on signs with the format [dsign:xxxx]
+  line1: # [dsign:line1] - This is a line that adds a scroll message
+    text:
+    - '<scroll width=15>&4Warning: &8You are now using the DynamicSigns plugin made by &7Maximvdw&8!</scroll>'
+    # The interval in ticks to switch text (20 ticks = 1 second)
+    interval: 4
+    # Define if the text should be randomized. Animation formatting tags
+    # won't be affected.
+    random: false
+    # Command(s) to execute on click (leave empty for nothing)
+    # The command supports placeholders
+    commands:
+    # These are commands you can execute
+    # They are prefixed with "who/what" executes them
+    #
+    # Send chat as the player
+    #  chat:...This is player chat
+    # Execute a command as the player (NO / required)
+    #  player:spawn
+    # Execute a command as the opped player (NO / required)
+    #  opplayer:tp...
+    # Execute a command as the console
+    #  console:give ...
+    # Delay between commands (in milliseconds)
+    #  delay:1500
+    - 'chat:I clicked a damn cool sign!'
+    - 'delay:2000'
+    - 'console:say {player} clicked a cool sign!'
+  line2: # [dsign:line2] - This line shows the ram and tps
+    text:
+    - '<repeat times=50>&a{tps_rounded}&8&l/&820</repeat>' # the <repeat> tag makes sure the tps updates 50 times (every 4 ticks)
+    - '<repeat times=50>&a{usedram}&8MB &l/&7{totalram}&8MB</repeat>'
+    interval: 4
+    # Randomize the contents in text
+    random: false
+    # Command(s) to execute on click (leave empty for nothing)
+    # The command supports placeholders
+    commands:
+    - 'say The server is running at {tps} Ticks per second!'
+  line3: # [dsign:line3] - Same as line 2 without commands
+    text:
+    - '<repeat times=50>&a{tps_rounded}&8&l/&820</repeat>' # the <repeat> tag makes sure the tps updates 50 times (every 4 ticks)
+    - '<repeat times=50>&a{usedram}&8MB &l/&7{totalram}&8MB</repeat>'
+    interval: 4
+    # Randomize the contents in text
+    random: false
+    commands: []
