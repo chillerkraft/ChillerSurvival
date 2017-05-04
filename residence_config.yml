@@ -24,7 +24,7 @@ Global:
   InfoToolId: 287
   Optimizations:
     # Name of your main residence world. Usually normal starting world 'World'. Capitalization essential
-    DefaultWorld: Arctic
+    DefaultWorld: Chillerlands
     DisabledWorlds:
       # List Of Worlds where this plugin is disabled
       List: []
@@ -59,7 +59,7 @@ Global:
     KickLocation:
       # By setting this to true, when player kicks another player from residence, he will be teleported to this location instead of getting outside residence
       Use: false
-      World: Arctic
+      World: Chillerlands
       X: 0.5
       Y: 63.0
       Z: 0.5
@@ -69,7 +69,7 @@ Global:
       Yaw: 0.0
     FlyLandLocation:
       # Used when players fly state is being turned to false because of fly flag and there is no solid land where to land for player
-      World: Arctic
+      World: Chillerlands
       X: 0.5
       Y: 63.0
       Z: 0.5
@@ -123,7 +123,7 @@ Global:
     TeleportTitleMessage: true
   RandomTeleportation:
     # World name to use this feature. Add annother one with appropriate name to enable random teleportation
-    Arctic:
+    Chillerlands:
       # Max coordinate to teleport, setting to 1000, player can be teleported between -1000 and 1000 coordinates
       MaxCoord: 1000
       # If maxcord set to 1000 and mincord to 500, then player can be teleported between -1000 to -500 and 1000 to 500 coordinates
@@ -162,7 +162,7 @@ Global:
     Days: 60
     # Worlds to be included in check list
     Worlds:
-    - Arctic
+    - Chillerlands
   Lwc:
     # Removes lwc protection from all defined objects when removing residence
     OnDelete: true
@@ -196,7 +196,7 @@ Global:
       # With this set to true, water flow outside residence is blocked
       NoWaterFlow: true
       Worlds:
-      - Arctic
+      - Chillerlands
     Place:
       # Level from witch one to start block lava and water place
       # This don't have effect in residence area
@@ -206,7 +206,7 @@ Global:
       # With this set to true, playrs cant place water outside residence
       NoWaterPlace: true
       Worlds:
-      - Arctic
+      - Chillerlands
     BlockFall:
       # With this set to true, falling blocks will be deleted if they will land in different area
       Use: true
@@ -214,7 +214,7 @@ Global:
       # This don't have effect in residence area or outside
       Level: 62
       Worlds:
-      - Arctic
+      - Chillerlands
     ResCleaning:
       # With this set to true, after player removes its residence, all blocks listed below, will be replaced with air blocks
       # Effective way to prevent residence creating near greefing target and then remove it
@@ -229,7 +229,7 @@ Global:
       - 10
       - 11
       Worlds:
-      - Arctic
+      - Chillerlands
     Flags:
       # By setting this to true flags from list will be protected from change while there is some one inside residence besides owner
       # Protects in example from people inviting some one and changing pvp flag to true to kill them
@@ -245,7 +245,7 @@ Global:
   DateFormat: E yyyy.MM.dd 'at' hh:mm:ss a zzz
   # Sets time zone for showing date, usefull when server is in different country then main server player base
   # Full list of posible time zones can be found at http://www.mkyong.com/java/java-display-list-of-timezone-with-gmt/
-  TimeZone: America/Toronto
+  TimeZone: Europe/Paris
   # Enable / Disable money returning on residence removal.
   ResMoneyBack: false
   # The interval, in minutes, between residence lease checks (if leases are enabled).
