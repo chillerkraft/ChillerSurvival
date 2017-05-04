@@ -1,0 +1,112 @@
+POTATO_ITEM:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+APPLE:
+  Amount: 2
+  Data: 0
+  Enchantments: []
+WOOD_AXE:
+  Amount: 1
+  Data: 0
+  Enchantments: []
+WOOD_PICKAXE:
+  Amount: 1
+  Data: 0
+  Enchantments: []
+STICK:
+  Amount: 12
+  Data: 0
+  Enchantments: []
+WOOD:2:
+  Amount: 12
+  Data: 0
+  Enchantments: []
+LOG_2:
+  Amount: 3
+  Data: 0
+  Enchantments: []
+LOG_2:1:
+  Amount: 3
+  Data: 1
+  Enchantments: []
+LOG:2:
+  Amount: 3
+  Data: 0
+  Enchantments: []
+LOG:3:
+  Amount: 3
+  Data: 1
+  Enchantments: []
+LOG:4:
+  Amount: 3
+  Data: 2
+  Enchantments: []
+LOG:5:
+  Amount: 3
+  Data: 3
+  Enchantments: []
+BREAD:
+  Amount: 2
+  Data: 0
+  Enchantments: []
+RAW_FISH:
+  Amount: 2
+  Data: 0
+  Enchantments: []
+STONE_AXE:
+  Amount: 1
+  Data: 0
+  Enchantments: []
+STONE_PICKAXE:
+  Amount: 1
+  Data: 0
+  Enchantments: []
+PUMPKIN:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+MELON_SEEDS:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+SEEDS:1:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+POTATO_ITEM:1:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+CARROT_ITEM:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+CACTUS:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+RED_MUSHROOM:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+BROWN_MUSHROOM:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+SAPLING:
+  Amount: 4
+  Data: 0
+  Enchantments: []
+SAPLING:1:
+  Amount: 4
+  Data: 2
+  Enchantments: []
+SAPLING:2:
+  Amount: 4
+  Data: 1
+  Enchantments: []
+SAPLING:3:
+  Amount: 4
+  Data: 3
+  Enchantments: []
