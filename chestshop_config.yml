@@ -1,4 +1,4 @@
-TURN_OFF_UPDATES: false
+TURN_OFF_UPDATES: true
 #Do you want to turn off the automatic updates of ChestShop?
 
 SHOP_INTERACTION_INTERVAL: 250
@@ -89,3 +89,4 @@ AUTHME_ALLOW_UNREGISTERED: false
 
 HEROES_EXP: 100.0
 #How much Heroes exp should people get for creating a ChestShop?
+
