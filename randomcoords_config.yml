@@ -18,22 +18,22 @@ BannedWorlds:
 CheckingRadius: 100
 Factions: false
 GriefPrevention: false
-AvoidPlayers: true
+AvoidPlayers: false
 Towny: false
 WorldBorder: false
-WorldGuard: true
+WorldGuard: false
 RedProtect: false
 Kingdoms: false
 VanillaBorder: true
 SkyBlock: false
-Residence: true
+Residence: false
 Regions:
-- spawn
-OnJoin: true
+- example
+OnJoin: false
 OnJoinCommand: none
-BonusChest: true
+BonusChest: false
 BonusChestItems:
-- Essentials,starter
+- WOOD_SWORD
 Command: random
 All: random
 Others: random
@@ -61,5 +61,5 @@ CircleRadiusWorlds:
 debug: false
 UpdateMessage: true
 OnJoinWorlds:
-- na
+- example
 Experimental: true
