@@ -10,15 +10,15 @@ Groups:
            # Determins if this group can create residences or not.  This option can be overriden with the permissions node 'residence.create'
            CanCreate: true
            # The maximum number of Residences a player can have.
-           MaxResidences: 3
+           MaxResidences: 20
            # The maximum number of physical areas a residence can have.
            MaxAreasPerResidence: 2
            # The maximum number of blocks a Residence can be, East to West (X).
-           MaxEastWest: 500
+           MaxEastWest: 1000
            # (Optional) The minimum number of blocks a Residence can be, East to West (X).
            MinEastWest: 3
            # The maximum number of blocks a Residence can be, North to South (Z).
-           MaxNorthSouth: 500
+           MaxNorthSouth: 1000
            # (Optional) The minimum number of blocks a Residence can be, North to South (Z).
            MinNorthSouth: 3
            # The maximum number of blocks a Residence can be, High to Low (Y).
@@ -30,17 +30,17 @@ Groups:
            # The highest altitude this group is allowed to protect.
            MaxHeight: 255
             # The maximum amount of subzones can current area have.
-           MaxSubzonesInArea: 3
+           MaxSubzonesInArea: 20
             # The maximum recursive depth that subzones can go.
             # A subzone within a subzone within the Residence zone would be a depth of 2.
             # Set to 0 to disable subzones.
            SubzoneDepth: 3
            # (Optional) The maximum number of blocks a Residence Subzone can be, East to West (X).
-           SubzoneMaxEastWest: 16
+           SubzoneMaxEastWest: 100
            # (Optional) The minimum number of blocks a Residence Subzone can be, East to West (X).
            SubzoneMinEastWest: 3
            # (Optional) The maximum number of blocks a Residence Subzone can be, North to South (Z).
-           SubzoneMaxNorthSouth: 16
+           SubzoneMaxNorthSouth: 100
            # (Optional) The minimum number of blocks a Residence Subzone can be, North to South (Z).
            SubzoneMinNorthSouth: 3
            # (Optional) The maximum number of blocks a Residence Subzone can be, High to Low (Y).
@@ -52,7 +52,7 @@ Groups:
            # Allow or Disallow the use of /res unstuck, to get yourself out of a residence if stuck in one somehow
            Unstuck: true
            # Allow or Disallow the use of /res kick, to kick player from residence.
-           Kick: true
+           Kick: False
            # Allow or Disallow the use of the /res select command, if disabled they can only use the selection tool.
            SelectCommandAccess: true
            # Allow or Disallow the group to access the Blacklist/Ignorelist for residences they own.
@@ -86,7 +86,7 @@ Groups:
           # Whether or not players in this group can buy other Residences that are for sale.
           CanBuy: true
           # Whether or not players in this group can sell their Residences.
-          CanSell: true
+          CanSell: false
           # Whether or not to ignore the Residence size/count limits when buying a residence.
           IgnoreLimits: false
           # The cost, per block, of making a new Residence or adding a area to it.
@@ -128,9 +128,9 @@ Groups:
            CanCreate: true
            MaxResidences: 4
            MaxAreasPerResidence: 2
-           MaxEastWest: 1000
-           MaxNorthSouth: 1000
-           MaxUpDown: 256
+           MaxEastWest: 20
+           MaxNorthSouth: 20
+           MaxUpDown: 20
            MinHeight: 0
            MaxHeight: 255
            SubzoneDepth: 3
