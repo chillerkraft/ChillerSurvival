@@ -245,7 +245,7 @@ Global:
   DateFormat: E yyyy.MM.dd 'at' hh:mm:ss a zzz
   # Sets time zone for showing date, usefull when server is in different country then main server player base
   # Full list of posible time zones can be found at http://www.mkyong.com/java/java-display-list-of-timezone-with-gmt/
-  TimeZone: Europe/Paris
+  TimeZone: America/Toronto
   # Enable / Disable money returning on residence removal.
   ResMoneyBack: false
   # The interval, in minutes, between residence lease checks (if leases are enabled).
