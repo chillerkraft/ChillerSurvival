@@ -78,7 +78,7 @@ tab:
     header:
       # The header supports color codes
       text: # Use \n to split lines
-      - '&9&l{175} <glow normalcolor="&8&l" glowcolor="&4&l" startglowcolor="&4&l" endglowcolor="&4&l">My Test Server</glow> &9&l{174}\n     &e&l~ &6&l<fullwidth>Welcome</fullwidth> &e&l~'
+      - '&e  &n{star_shadow}{star_shadow} &9&l&nChiller&b&l&nSurvival&e&n {star_shadow}{star_shadow}\n\n&8&lPLAYERS: &7{onlineplayers}/{maxplayers}'
       # The interval in ticks to switch text (20 ticks = 1 sec)
       interval: 2
       # Define if the text should be randomized. Animation formatting tags
@@ -88,7 +88,7 @@ tab:
     footer:
       # The footer supports color codes
       text:
-      - '&8&lRAM USAGE: &7{usedram_formatted} / {maxram_formatted}\n &8&lTPS USAGE: &7{tps_rounded} / 20\n &8&lONLINE PLAYERS: &7{onlineplayers}'
+      - '\n&8&lDISGUISE: &7{libsdisguises_disguise}\n&8&lKD RATIO: &7{stat_kd}\n&2Want something here?\nSuggest it with &c/tabsuggest [message]&2!'
       # The interval in ticks to switch text (20 ticks = 1 sec)
       interval: 2
       # Define if the text should be randomized. Animation formatting tags
