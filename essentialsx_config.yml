@@ -275,72 +275,34 @@ skip-used-one-time-kits-from-kit-list: false
 # Set delay to -1 for a one time kit.
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
-  sword:
-    delay: 60
-    items:
-      - 283 1
-  claim:
-    delay: 180
-    items:
-      - 280 1
-  starter:
-    delay: 21600
-    items:
-      - 260 2
-      - 271 1
-      - 270 1
-      - 280 12
-      - 5 12
-      - 162 3
-      - 162:1 3
-      - 17 3
-      - 17:1 3
-      - 17:2 3
-      - 17:3 3
-      - 297 2
-      - 349:1 2
-      - 275 1
-      - 274 1
-      - 361 4
-      - 362 4
-      - 295 4
-      - 392 4
-      - 391 4
-      - 81 4
-      - 40 4
-      - 39 4
-      - 6 4
-      - 6:2 4
-      - 6:1 4
-      - 6:3 4
   tools:
-    delay: 600
+    delay: 10
     items:
+      - 272 1
       - 273 1
       - 274 1
       - 275 1
-      - 291 1
   dtools:
-    delay: 18000
+    delay: 600
     items:
-      - 278 1
-      - 277 1
-      - 279 1
-      - 293 1
+      - 278 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+      - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+      - 298 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+      - 279:780 1
   notch:
-    delay: 86400
+    delay: 6000
     items:
       - 397:3 1 player:Notch
   color:
-    delay: 60
+    delay: 6000
     items:
       - 387 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
   firework:
     delay: 6000
     items:
-      - 401 10 name:Angry_Creeper color:red fade:green type:creeper power:1
-      - 401 10 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
-      - 401 20 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
+      - 401 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+      - 401 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
+      - 401 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1
 
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
@@ -349,24 +311,24 @@ kits:
 # Color is not an actual sign, it's for enabling using color codes on signs, when the correct permissions are given.
 
 enabledSigns:
-  - color
-  - balance
-  - buy
-  - sell
-  - trade
-  - free
+  #- color
+  #- balance
+  #- buy
+  #- sell
+  #- trade
+  #- free
   #- disposal
-  - warp
-  - kit
-  - mail
-  - enchant
+  #- warp
+  #- kit
+  #- mail
+  #- enchant
   #- gamemode
-  - heal
-  - info
-  - spawnmob
-  - repair
-  - time
-  - weather
+  #- heal
+  #- info
+  #- spawnmob
+  #- repair
+  #- time
+  #- weather
 
 # How many times per second can Essentials signs be interacted with per player.
 # Values should be between 1-20, 20 being virtually no lag protection.
@@ -391,7 +353,7 @@ backup:
   #command: 'rdiff-backup World1 backups/World1'
 
 # Set this true to enable permission per warp.
-per-warp-permission: true
+per-warp-permission: false
 
 # Sort output of /list command by groups.
 # You can hide and merge the groups displayed in /list by defining the desired behaviour here.
@@ -399,8 +361,7 @@ per-warp-permission: true
 list:
     # To merge groups, list the groups you wish to merge
     #Staff: owner admin moderator
-    Admins: owner admin staff
-    Players: default
+    Admins: owner admin
     # To limit groups, set a max user limit
     #builder: 20
     # To hide groups, set the group as hidden
@@ -419,7 +380,7 @@ debug: false
 #locale: en
 
 # Turn off god mode when people leave the server.
-remove-god-on-disconnect: true
+remove-god-on-disconnect: false
 
 # Auto-AFK
 # After this timeout in seconds, the user will be set as AFK.
@@ -431,7 +392,7 @@ auto-afk: 300
 # After this timeout in seconds, the user will be kicked from the server.
 # essentials.afk.kickexempt node overrides this feature.
 # Set to -1 for no timeout.
-auto-afk-kick: 1800
+auto-afk-kick: -1
 
 # Set this to true, if you want to freeze the player, if the player is AFK.
 # Other players or monsters can't push the player out of AFK mode then.
@@ -500,14 +461,14 @@ repair-enchanted: true
 
 # Allow 'unsafe' enchantments in kits and item spawning.
 # Warning: Mixing and overleveling some enchantments can cause issues with clients, servers and plugins.
-unsafe-enchantments: true
+unsafe-enchantments: false
 
 #Do you want Essentials to keep track of previous location for /back in the teleport listener?
 #If you set this to true any plugin that uses teleport will have the previous location registered.
 register-back-in-listener: false
 
 #Delay to wait before people can cause attack damage after logging in.
-login-attack-delay: 3
+login-attack-delay: 5
 
 #Set the max fly speed, values range from 0.1 to 1.0
 max-fly-speed: 0.8
@@ -617,7 +578,7 @@ tpa-accept-cancellation: 120
 # For more information, visit http://wiki.ess3.net/wiki/Essentials_Economy
 
 # Defines the balance with which new players begin. Defaults to 0.
-starting-balance: 4.20
+starting-balance: 0
 
 # worth-# defines the value of an item when it is sold to the server via /sell.
 # These are now defined in worth.yml
@@ -703,7 +664,7 @@ chat:
   # Or you can give a group specific chat format, to give some extra variation.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
 
-  format: '&c{GROUP}&r {DISPLAYNAME} &2>>&r {MESSAGE}'
+  format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
@@ -893,12 +854,12 @@ newbies:
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
-  spawnpoint: "none"
+  spawnpoint: newbies
 
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: 'sword'
+  kit: tools
 
 # Set this to lowest, if you want Multiverse to handle the respawning.
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
@@ -906,15 +867,15 @@ newbies:
 respawn-listener-priority: high
 
 # When users die, should they respawn at their first home or bed, instead of the spawnpoint?
-respawn-at-home: true
+respawn-at-home: false
 
 # Teleport all joining players to the spawnpoint
-#spawn-on-join: false
+spawn-on-join: false
 # The following value of `guests` states that all players in group `guests` will be teleported to spawn when joining.
 #spawn-on-join: guests
 # The following list value states that all players in group `guests` and `admin` are to be teleported to spawn when joining. 
-spawn-on-join:
-- default
+#spawn-on-join:
+#- guests
 #- admin
 
 # End of file <-- No seriously, you're done with configuration.
