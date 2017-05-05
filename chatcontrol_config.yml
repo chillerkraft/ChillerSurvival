@@ -82,11 +82,11 @@ Anti_Spam:
 
   Chat:
     # Delay in seconds. Set to 0 to disable.
-    Delay_Between_Messages: 1
+    Delay_Between_Messages: 2
 
     # If a command is similar (in percents) to the previous one, block it.
     # Set to 0 or 100 to disable.
-    Similar_Percentage_Block: 80
+    Similar_Percentage_Block: 0
     
     # Should regular expressions be supported in Whitelist_Similarity and Whitelist_Delay?
     # ! Can lead to unexpected behavior.
@@ -129,12 +129,12 @@ Chat:
   Grammar:
     # Punctualize every sentence. Ignores URLs.
     Insert_Dot:
-      Enabled: true
+      Enabled: false
       Min_Message_Length: 5
 
     # Make the first letter of a sentence big. Ignores URLs.
     Capitalize:
-      Enabled: true
+      Enabled: false
       Min_Message_Length: 5
 
 Clear:
