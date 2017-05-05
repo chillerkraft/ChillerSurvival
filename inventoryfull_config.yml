@@ -32,7 +32,7 @@ titlemanager:
   use_actionbar: false
   actionbar_message: '&cYou don''t have room in your inventory'
 holographicdisplays:
-  use_hologram: false
+  use_hologram: true
   message:
   - '&cYour inventory'
   - '&cis full!'
