@@ -12,7 +12,7 @@ history:
   max-rows: 10
 
 debugging:
-  verbose: false
+  verbose: true
 
 database:
   host: '##########'
