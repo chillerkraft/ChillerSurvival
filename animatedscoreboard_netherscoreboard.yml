@@ -1,97 +1,106 @@
 display:
   title:
     text:
-    - '&lA'
-    - '&lAn'
-    - '&lAni'
-    - '&lAnim'
-    - '&lAnima'
-    - '&lAnimat'
-    - '&lAnimate'
-    - '&lAnimated'
-    - '&lAnimated '
-    - '&lAnimated S'
-    - '&lAnimated Sc'
-    - '&lAnimated Sco'
-    - '&lAnimated Scor'
-    - '&lAnimated Score'
-    - '&lAnimated Scoreb'
-    - '&lAnimated Scorebo'
-    - '&lAnimated Scoreboa'
-    - '&lAnimated Scoreboar'
-    - '&lAnimated Scoreboard'
-    - '&c&lAnimated Scoreboard'
-    - '&lAnimated Scoreboard'
-    - '&c&lAnimated Scoreboard'
-    - '&lAnimated Scoreboard'
-    - '&c&lAnimated Scoreboard'
-    - '&lAnimated Scoreboard'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
+    - '&9&l&nChiller&f&l&nSurvival'
+    - '&9&l&nChiller&b&l&nSurvival'
     random: false
     interval: 2
   line-1:
     text:
-    - ' '
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - ''
+    - '                &e⚡  ⚡  ⚡'
+    - '                &e⚡     ⚡'
+    - '                      &e⚡  ⚡ ⚡'
+    - '                   &e⚡    ⚡'
+    - '                   &e⚡  ⚡ ⚡'
+    - '                      &e⚡   ⚡'
+    - '                      &e⚡   ⚡'
+    - '                   &e⚡  ⚡  ⚡'
+    - '                   &e⚡     ⚡'
+    - '                      &e⚡  ⚡ ⚡'
+    - '                   &e⚡    ⚡'
+    - '                   &e⚡  ⚡ ⚡'
+    - '                      &e⚡   ⚡'
+    - '                      &e⚡   ⚡'
+    - ''
     random: false
-    interval: 200
+    interval: 2
     score: 15
   line-2:
     text:
-    - '&a&lWelcome %player_name%'
-    - '&b&lWelcome %player_name%'
-    - '&c&lWelcome %player_name%'
+    - '&3Your name:'
     random: false
-    interval: 5
+    interval: 200
     score: 14
   line-3:
     text:
-    - ' '
+    - '  &6%player_displayname%'
     random: false
     interval: 20
     score: 13
   line-4:
     text:
-    - '&aYour gamemode:'
-    - '&aYour location:'
-    - '&aYour world:'
+    - '&3Your balance:'
     random: false
-    interval: 60
+    interval: 200
     score: 12
   line-5:
     text:
-    - '  &b%player_gamemode%'
-    - '  <update ticks=1>&bX:%player_x% Y:%player_y% Z:%player_z%</update>'
-    - '  &b%player_world%'
+    - '  &6$%vault_eco_balance%'
     random: false
-    interval: 60
+    interval: 20
     score: 11
+  line-6:
+    text:
+    - '&3Empty slots: &6%player_has_empty_slot%'
+    random: false
+    interval: 20
+    score: 10
   line-7:
     text:
-    - ' '
+    - '&4Magma Cube kills: %statistic_kill_entity_MAGMA_CUBE%'
     random: false
-    interval: 200
-    score: 10
+    interval: 20
+    score: 9
   line-8:
     text:
-    - '&1Random Rotation'
-    - '&2Random Rotation'
-    - '&3Random Rotation'
-    - '&4Random Rotation'
-    - '&5Random Rotation'
-    - '&6Random Rotation'
-    - '&7Random Rotation'
-    - '&8Random Rotation'
-    - '&9Random Rotation'
-    - '&aRandom Rotation'
-    - '&bRandom Rotation'
-    - '&cRandom Rotation'
-    - '&dRandom Rotation'
-    - '&eRandom Rotation'
-    - '&kRandom Rotation'
-    - '&lRandom Rotation'
-    - '&mRandom Rotation'
-    - '&nRandom Rotation'
-    - '&oRandom Rotation'
-    - '&rRandom Rotation'
-    random: true
-    interval: 1
-    score: 9
+    - '&cZombie Pigman kills: %statistic_kill_entity_PIG_ZOMBIE%'
+    random: false
+    interval: 20
+    score: 8
+  line-9:
+    text:
+    - '&7Ghast kills: %statistic_kill_entity_GHAST%'
+    random: false
+    interval: 20
+    score: 7
+  line-10:
+    text:
+    - '&4&l⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠ ⚠'
+    random: false
+    interval: 200
+    score: 6
